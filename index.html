@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    body {
+      background-color: purple;
+      color: white;
+    }
+    .image-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .image-item {
+      margin: 10px;
+      width: 300px;
+      height: 200px;
+    }
+    .image-caption {
+      text-align: center;
+    }
+    header {
+      background-color: #8B008B;
+      padding: 10px;
+      text-align: center;
+    }
+    footer {
+      background-color: #8B008B;
+      padding: 10px;
+      text-align: center;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <a href="#stories">Stories</a> |
+    <a href="#images">Images</a> |
+    <a href="#about">About</a>
+  </header>
+  <div class="image-container">
+    <div class="image-item">
+      <img src="https://source.unsplash.com/random/300x200?landscape" alt="Landscape 1">
+      <div class="image-caption">Landscape 1</div>
+    </div>
+    <!-- Repeat the above div for 10 images -->
+  </div>
+  <footer>
+    <div>Copyright © 2022</div>
+    <div>Contact information</div>
+    <div>
+      <a href="https://www.facebook.com/">Facebook</a> |
+      <a href="https://www.twitter.com/">Twitter</a> |
+      <a href="https://www.instagram.com/">Instagram</a>
+    </div>
+  </footer>
+</body>
+</html>
